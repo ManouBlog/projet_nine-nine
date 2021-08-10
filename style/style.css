@@ -70,6 +70,8 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 1rem;
+    border-radius: 100%;
+
    
 }
 .cote__left-contacts *{
@@ -166,12 +168,15 @@ p a{
     }
    .cote__left{
        width: 100%;
-       padding: 1rem;
        margin-bottom: 1rem;
+       padding: 1rem 0;
        
    }
    .cote__left-img{
    border-radius: 100%;
+   width: 250px;
+   height: 250px;
+   margin: auto;
    }
    h4,h2,h3{
     font-size: 1rem;
@@ -203,6 +208,7 @@ p a{
         height: 500px;
         margin: 0;
         background-attachment: fixed;
+        border-radius: 0;
        
     }
    
